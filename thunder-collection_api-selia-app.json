@@ -1,0 +1,166 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "api-selia-app",
+    "dateExported": "2023-09-21T06:40:48.580Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "53cc12aa-f00c-40d0-a2f0-12d78b203067",
+            "colId": "ce367fc7-2e8d-4f7e-b9e9-3892073b0f98",
+            "containerId": "",
+            "name": "report-fetchOne",
+            "url": "http://amtis.opengw.net:888/api-selia-app/public/api/report/1?expand=log",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-09-18T03:43:34.122Z",
+            "modified": "2023-09-20T04:54:16.269Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "expand",
+                    "value": "log",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiYzM0NjdiZjM3YzNjMTRiNGQ5MDU3YzE4NzY5NjQ2MTFlZDAxMjBjYjI2ODA4Y2NiMDU1NGQ5ZDY1MjdjNTY5MWQ5ODM3Y2IzMDU2YmQ5ZDEiLCJpYXQiOjE2OTUxMTExNDQuNDUxNzgxLCJuYmYiOjE2OTUxMTExNDQuNDUxNzg2LCJleHAiOjE3MjY3MzM1NDQuMTY5MzYyLCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.iaNREgcAb0Q3nw8Pq-PXX_kF5Ngl6dcrFy2IJFTxHCHXoDeD67nzzierLYBkx--82bduhNoPvZBzRBg00k83A6igspS8qsEXlMdGHsy8ssJiHShY0Bqqfw5A5W6zzFzIoUuIITLp94YZ8x-9cmThn5I1s8Jd0LYwkk3y_pC-oNuTo6lwGg2MuYkyNccGhZmVbUCWuwb_MWuFkPA7B8auKTC-RqTFabjFYUIG8rWXF2BsMybBlhgs7dDbaFsyflhjqh0e0Ycbb74garw1QHCESx9a4CyiNY7GvFrST7QTJhvcXet7LTuSbuG4u6lGdTHYBrSu74UjcwtXRZdbS61IEHIfVftC19t2C8TKAHVfxM6aA14LDEpj7hbRLo2kQXv07xGr-xLF1x2XvYC1Pk8qT7IAn-AK1NOB3Hl3nTnD77G3gYYXNiZ4YQga5aQp9QKbdl-q-3f7bxZiTlMGXiKnm2hUC3eIN6qQiwQQ2YBz77-6dtMfr6mbz-EaSfaI9TpDA-lGktWYH3FHAha0Ax2rJr7mPGuJvTN9dB71zvuXXcf0Pq_MaOYHQdynwI0yT7jHDM4v9h5p6m8tKosksrzI0w2n2Vt3A4qTO9EetpMDijuPuejK4vWoyR8_mTWEPsBTHLGrzyXfJoP4XJWR2FAOuT59BjZfjSU22H2jbrfptJQ"
+            },
+            "tests": []
+        },
+        {
+            "_id": "cbb20a42-2ddc-4289-9cb6-bbd588de1284",
+            "colId": "ce367fc7-2e8d-4f7e-b9e9-3892073b0f98",
+            "containerId": "",
+            "name": "report-create",
+            "url": "http://amtis.opengw.net:888/api-selia-app/public/api/report",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2023-09-18T03:44:48.338Z",
+            "modified": "2023-09-20T08:30:06.514Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "laporan jalan krubong 2"
+                    },
+                    {
+                        "name": "description",
+                        "value": "jalan banyak belubang"
+                    },
+                    {
+                        "name": "report_no",
+                        "value": "KB20230919A00001"
+                    },
+                    {
+                        "name": "latitude",
+                        "value": "2.1896"
+                    },
+                    {
+                        "name": "longitude",
+                        "value": "102.2501"
+                    },
+                    {
+                        "name": "reporter_id",
+                        "value": "3"
+                    },
+                    {
+                        "name": "updated_by",
+                        "value": "3",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "status",
+                        "value": "1"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiYzM0NjdiZjM3YzNjMTRiNGQ5MDU3YzE4NzY5NjQ2MTFlZDAxMjBjYjI2ODA4Y2NiMDU1NGQ5ZDY1MjdjNTY5MWQ5ODM3Y2IzMDU2YmQ5ZDEiLCJpYXQiOjE2OTUxMTExNDQuNDUxNzgxLCJuYmYiOjE2OTUxMTExNDQuNDUxNzg2LCJleHAiOjE3MjY3MzM1NDQuMTY5MzYyLCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.iaNREgcAb0Q3nw8Pq-PXX_kF5Ngl6dcrFy2IJFTxHCHXoDeD67nzzierLYBkx--82bduhNoPvZBzRBg00k83A6igspS8qsEXlMdGHsy8ssJiHShY0Bqqfw5A5W6zzFzIoUuIITLp94YZ8x-9cmThn5I1s8Jd0LYwkk3y_pC-oNuTo6lwGg2MuYkyNccGhZmVbUCWuwb_MWuFkPA7B8auKTC-RqTFabjFYUIG8rWXF2BsMybBlhgs7dDbaFsyflhjqh0e0Ycbb74garw1QHCESx9a4CyiNY7GvFrST7QTJhvcXet7LTuSbuG4u6lGdTHYBrSu74UjcwtXRZdbS61IEHIfVftC19t2C8TKAHVfxM6aA14LDEpj7hbRLo2kQXv07xGr-xLF1x2XvYC1Pk8qT7IAn-AK1NOB3Hl3nTnD77G3gYYXNiZ4YQga5aQp9QKbdl-q-3f7bxZiTlMGXiKnm2hUC3eIN6qQiwQQ2YBz77-6dtMfr6mbz-EaSfaI9TpDA-lGktWYH3FHAha0Ax2rJr7mPGuJvTN9dB71zvuXXcf0Pq_MaOYHQdynwI0yT7jHDM4v9h5p6m8tKosksrzI0w2n2Vt3A4qTO9EetpMDijuPuejK4vWoyR8_mTWEPsBTHLGrzyXfJoP4XJWR2FAOuT59BjZfjSU22H2jbrfptJQ"
+            },
+            "tests": []
+        },
+        {
+            "_id": "1282adee-fa4c-49f5-a52b-3878d0f1c1f2",
+            "colId": "ce367fc7-2e8d-4f7e-b9e9-3892073b0f98",
+            "containerId": "",
+            "name": "report-fetchAll",
+            "url": "http://amtis.opengw.net:888/api-selia-app/public/api/report",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-09-18T03:44:03.388Z",
+            "modified": "2023-09-20T08:06:21.531Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiYzM0NjdiZjM3YzNjMTRiNGQ5MDU3YzE4NzY5NjQ2MTFlZDAxMjBjYjI2ODA4Y2NiMDU1NGQ5ZDY1MjdjNTY5MWQ5ODM3Y2IzMDU2YmQ5ZDEiLCJpYXQiOjE2OTUxMTExNDQuNDUxNzgxLCJuYmYiOjE2OTUxMTExNDQuNDUxNzg2LCJleHAiOjE3MjY3MzM1NDQuMTY5MzYyLCJzdWIiOiIzIiwic2NvcGVzIjpbXX0.iaNREgcAb0Q3nw8Pq-PXX_kF5Ngl6dcrFy2IJFTxHCHXoDeD67nzzierLYBkx--82bduhNoPvZBzRBg00k83A6igspS8qsEXlMdGHsy8ssJiHShY0Bqqfw5A5W6zzFzIoUuIITLp94YZ8x-9cmThn5I1s8Jd0LYwkk3y_pC-oNuTo6lwGg2MuYkyNccGhZmVbUCWuwb_MWuFkPA7B8auKTC-RqTFabjFYUIG8rWXF2BsMybBlhgs7dDbaFsyflhjqh0e0Ycbb74garw1QHCESx9a4CyiNY7GvFrST7QTJhvcXet7LTuSbuG4u6lGdTHYBrSu74UjcwtXRZdbS61IEHIfVftC19t2C8TKAHVfxM6aA14LDEpj7hbRLo2kQXv07xGr-xLF1x2XvYC1Pk8qT7IAn-AK1NOB3Hl3nTnD77G3gYYXNiZ4YQga5aQp9QKbdl-q-3f7bxZiTlMGXiKnm2hUC3eIN6qQiwQQ2YBz77-6dtMfr6mbz-EaSfaI9TpDA-lGktWYH3FHAha0Ax2rJr7mPGuJvTN9dB71zvuXXcf0Pq_MaOYHQdynwI0yT7jHDM4v9h5p6m8tKosksrzI0w2n2Vt3A4qTO9EetpMDijuPuejK4vWoyR8_mTWEPsBTHLGrzyXfJoP4XJWR2FAOuT59BjZfjSU22H2jbrfptJQ"
+            },
+            "tests": []
+        },
+        {
+            "_id": "eb1290b3-e27d-4eb3-9627-b9d8fcc35d6c",
+            "colId": "ce367fc7-2e8d-4f7e-b9e9-3892073b0f98",
+            "containerId": "",
+            "name": "login",
+            "url": "http://amtis.opengw.net:888/api-selia-app/public/api/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-09-18T03:44:29.550Z",
+            "modified": "2023-09-19T08:12:27.274Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "reporter1@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ]
+}
